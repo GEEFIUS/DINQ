@@ -361,7 +361,8 @@ io.on("connection", (socket) => {
     });
 });
 
-mongoose.connect("mongodb+srv://a1turpy_db_user:qwerty.1@cluster0.t4p4dwe.mongodb.net/dinq?retryWrites=true&w=majority&appName=Cluster0")
+//example connection: mongodb+srv://username_db_user:Password123@cluster0.t4p4dwe.mongodb.net/dinq?retryWrites=true&w=majority&appName=Cluster0
+mongoose.connect("    insert mongodb connectinon     ")
     .then(() => {
         console.log("Mongo Connected");
     })
